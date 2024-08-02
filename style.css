@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Founder;
+  src: url(/Text_scroll_animation/FoundersGroteskCondensed-Bold.ttf);
+}
+@font-face {
+  font-family:Cardinalita ;
+  src: url(/Text_scroll_animation/cardinalfruitweb-italic.ttf);
+}
+@font-face {
+  font-family: Cardinalreg;
+  src: url(/Text_scroll_animation/cardinalfruitweb-regular.ttf);
+}
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+#main-p{
+  width: 100%;
+  height:100vh;
+  background-color: #D34242;
+}
+#main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  
+}
+#top{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 50vh;
+  background-color: #2DC5CC;
+  overflow: hidden;
+}
+#middle{
+  width: 100%;
+  height: 100vh;
+  background-color: #284036;
+}
+#bottom{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50vh;
+  background-color: #2DC5CC;
+  overflow: hidden;
+}
+#main h1{
+  font-family:Founder;
+  position: absolute;
+  font-size:20vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#top-h{
+  bottom: 27%;
+}
+#bottom-h{
+  top: 0% !important;
+}
